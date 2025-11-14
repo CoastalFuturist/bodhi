@@ -1,8 +1,3 @@
-# bodhi
-
-**bodhi** is a tiny command-line program that prints a random line each time you run it:
-haikus, koans, quotes, and short bits of machine-age wisdom.
-
 ## Install
 
 ### macOS (Apple Silicon)
@@ -12,24 +7,30 @@ curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-
   -o /usr/local/bin/bodhi
 
 chmod +x /usr/local/bin/bodhi
+```
 
 ### macOS (Intel)
 
+```bash
 curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-mac-amd64 \
   -o /usr/local/bin/bodhi
 
 chmod +x /usr/local/bin/bodhi
+```
 
 ### Linux (x86_64)
 
+```bash
 curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-linux-amd64 \
   -o /usr/local/bin/bodhi
 
 chmod +x /usr/local/bin/bodhi
+```
 
-USAGE
+## Usage
 
 ```bash
 bodhi
+```
 
-That's it, prints one random line and exits
+That's it — it prints one random line and exits.
