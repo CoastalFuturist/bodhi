@@ -33,4 +33,4 @@ sudo chmod +x /usr/local/bin/bodhi
 bodhi
 ```
 
-That's it — it prints one random line and exits.
+That's it — it prints one random line and exits..
