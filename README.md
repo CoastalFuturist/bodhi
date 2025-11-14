@@ -3,28 +3,28 @@
 ### macOS (Apple Silicon)
 
 ```bash
-curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-mac-arm64 \
+sudo curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-mac-arm64 \
   -o /usr/local/bin/bodhi
 
-chmod +x /usr/local/bin/bodhi
+sudo chmod +x /usr/local/bin/bodhi
 ```
 
 ### macOS (Intel)
 
 ```bash
-curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-mac-amd64 \
+sudo curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-mac-amd64 \
   -o /usr/local/bin/bodhi
 
-chmod +x /usr/local/bin/bodhi
+sudo chmod +x /usr/local/bin/bodhi
 ```
 
 ### Linux (x86_64)
 
 ```bash
-curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-linux-amd64 \
+sudo curl -L https://github.com/CoastalFuturist/bodhi/releases/latest/download/bodhi-linux-amd64 \
   -o /usr/local/bin/bodhi
 
-chmod +x /usr/local/bin/bodhi
+sudo chmod +x /usr/local/bin/bodhi
 ```
 
 ## Usage
